@@ -28,7 +28,7 @@ public class GuessingGame {
 				if (guess == rightNumber) {
 					System.out.println("That is the correct number!!!!");				
 				} else if (guess < rightNumber) {
-         		System.out.println("Your guess is to low. Try again!");
+         			System.out.println("Your guess is to low. Try again!");
 				} else if (guess > rightNumber) {
 					System.out.println("Your guess is to high. Try again!");
 				}
