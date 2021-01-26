@@ -12,7 +12,14 @@ public class GuessingGame {
 			int rightNumber;
 			rightNumber = (int) (Math.random() * 999);
 			System.out.println("The random number is: " + rightNumber); // debug statement to see if it prints num, remove later**
-	
+			
+			// asking for user input
+			Scanner input = new Scanner(System.in);
+			int guess;
+			System.out.println("Enter your best guess: ");
+			guess = input.nextInt();
+			System.out.println("Your guess is: " + guess);
+				
 
     }
 }
