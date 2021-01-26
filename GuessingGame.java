@@ -19,7 +19,7 @@ public class GuessingGame {
 
 		// do while the guess is incorrect to keep looping
 		do {
-			System.out.println("Enter your best guess: ");
+			System.out.println("Enter your best guess (1-1000): ");
 			guess = input.nextInt();
 			System.out.println("Your guess is: " + guess);
 			
