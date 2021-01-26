@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class GuessingGame {
     public static void main(String[] args){
-			int rightNumber;
+		int rightNumber;
 			rightNumber = (int) (Math.random() * 999);
 			System.out.println("The random number is: " + rightNumber); // debug statement to see if it prints num, remove later**
 			
