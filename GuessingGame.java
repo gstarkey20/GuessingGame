@@ -19,7 +19,16 @@ public class GuessingGame {
 			System.out.println("Enter your best guess: ");
 			guess = input.nextInt();
 			System.out.println("Your guess is: " + guess);
-				
+			
 
+			// checking for conditions
+			if (guess == rightNumber) {
+				System.out.println("That is the correct number!!!!");				
+			} else if (guess < rightNumber) {
+         	System.out.println("Your guess is to low. Try again!");
+			} else if (guess > rightNumber) {
+				System.out.println("Your guess is to high. Try again!");
+			}
+			
     }
 }
